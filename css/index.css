@@ -10,6 +10,9 @@ body {
 .wrapper {
 }
 
+/* --------------------------------------------------- *
+ * Site Top
+ */
 #site_ttl_area {
   width: 100%;
   height: auto;
@@ -32,12 +35,14 @@ body {
   margin: 15px 0 25px;
 }
 
-
+/* --------------------------------------------------- *
+ * Global Navigation
+ */
 #gnav_area {
   width: 100%;
   height: auto;
   text-align: center;
-  margin: 0 0 300px;
+  margin: 0 0 800px;
   padding-top: 300px;
 }
 .gnav {
@@ -65,6 +70,72 @@ body {
 .gnav li a:hover {
   box-shadow: 0 0 20px 5px rgba(255,255,255,.3) inset;
 }
+
+/* --------------------------------------------------- *
+ * works content
+ */
+#works_area {
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  margin-bottom: 300px;
+}
+#works_area .inner {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #456;
+  padding-bottom: 80px;
+}
+#works_area .works_content {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #456;
+  position: relative;
+}
+#works_area h2 {
+  text-align: center;
+  font-size: 4em;
+  color: #456;
+  width: 180px;
+  height: 180px;
+  background-color: #fff;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  z-index: 500;
+  padding-top: 40px;
+}
+#works_area h3 {
+  text-align: center;
+  border-bottom: 2px solid #fff;
+  font-size: 3em;
+  padding-top: 180px;
+}
+#works_area .link_arrow_w,
+#works_area .link_arrow_w img {
+  margin: 80px auto 0;
+}
+
+
+/* --------------------------------------------------- *
+ * footer
+ */
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #000;
+  padding-top: 80px;
+}
+footer #profile_area {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+
 
 
 
