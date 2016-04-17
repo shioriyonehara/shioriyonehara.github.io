@@ -1,0 +1,42 @@
+body {
+  background-image: url(../img/bg_sakura.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.wrapper {
+}
+
+#site_ttl_area {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 200px 0 300px;
+}
+#site_ttl_area h1 {
+  font-size: 5em;
+}
+.site_ttl {
+  width: 430px;
+  height: auto;
+  padding: 60px 40px 30px;
+  border: 1px solid #fff;
+  margin: 0 auto 60px;
+}
+.site_ttl img {
+  width: 32px;
+  height: 32px;
+  margin: 15px 0 25px;
+}
+
+.link_arrow_w,
+.link_arrow_w img {
+  display: block;
+  width: 152px;
+  height: 77px;
+  margin: 0 auto;
+}
+
