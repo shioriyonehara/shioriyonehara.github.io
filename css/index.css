@@ -17,7 +17,7 @@ body {
   width: 100%;
   height: auto;
   text-align: center;
-  margin: 200px 0 300px;
+  padding: 200px 0 300px;
 }
 #site_ttl_area h1 {
   font-size: 5em;
@@ -65,10 +65,16 @@ body {
   display: block;
   width: 100%;
   height: 100%;
-  transition-delay: 0.2s;
+  transition-duration: 0.3s;
+  background-image: url(../img/icon_arrow_wh.png);
+  background-position: 90% 50%;
+  background-repeat: no-repeat;
+  -webkit-background-size: 7px 13px;
+  background-size: 7px 13px;
 }
 .gnav li a:hover {
   box-shadow: 0 0 20px 5px rgba(255,255,255,.3) inset;
+  background-image: url(../img/icon_arrow_lg.png);
 }
 
 /* --------------------------------------------------- *
@@ -220,6 +226,32 @@ footer .copyright {
 
 
 
+/* --------------------------------------------------- *
+ * back to top bottun
+ */
+#page-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+#page-top a {
+  background: #000;
+  text-decoration: none;
+  color: #fff;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 80px;
+  display: block;
+  border-radius: 40px;
+  border: 2px solid #fff;
+  transition-duration: 0.3s;
+}
+#page-top a:hover {
+  text-decoration: none;
+  background: rgba(0,0,0,0.2);
+}
 
 .link_arrow_w,
 .link_arrow_w img {
