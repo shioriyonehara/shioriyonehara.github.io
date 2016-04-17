@@ -110,7 +110,10 @@ body {
   text-align: center;
   border-bottom: 2px solid #fff;
   font-size: 3em;
-  padding-top: 180px;
+  padding: 180px 0 4px;
+}
+#works_area li {
+  float: left;
 }
 #works_area .link_arrow_w,
 #works_area .link_arrow_w img {
@@ -127,14 +130,92 @@ footer {
   background-color: #000;
   padding-top: 80px;
 }
+footer h2 {
+  font-size: 4em;
+  margin-bottom: 120px;
+
+}
 footer #profile_area {
   max-width: 1000px;
   width: 100%;
-  margin: 0 auto;
+  margin: 0 auto 80px;
+}
+#profile_area .profile_prof {
+  width: 50%;
+  float: left;
+}
+#profile_area .profile_prof dl {
+  font-size: 1.4em;
+  margin-bottom: 20px;
+}
+#profile_area .profile_prof dt {
+  float: left;
+  width: 4em;
+}
+#profile_area .profile_prof dd {
+  padding-left: 4em;
+}
+#profile_area .profile_prof_comment {
+  margin-bottom: 50px;
+}
+#profile_area .profile_prof #mail img {
+  width: 55px;
+  height: 48px;
+  margin-right: 16px;
 }
 
+#profile_area .profile_skill {
+  width: 40%;
+  float: right;
+}
+#profile_area .profile_skill > dl {
+  margin-bottom: 80px;
+}
+#profile_area .profile_skill > dl > dt {
+  float: left;
+  font-size: 3em;
+}
+#profile_area .profile_skill > dl > dd {
+  font-size: 1.4em;
+  padding-left: 6.6em;
+}
+#profile_area .skill_list ul {
+  border-left: 1px dotted #fff;
+}
+#profile_area .skill_list_item {
+  display: inline-block;
+  padding-right: 10px;
+}
+#profile_area .skill_list li img {
+  width: 19px;
+  height: 19px;
+  margin-left: 8px;
+}
+#profile_area .skill_icon {
+  
+}
+#profile_area .skill_icon_adobe li {
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+#profile_area .skill_icon_adobe li img {
+  width: 60px;
+  height: 60px;
+}
+#profile_area .skill_icon_other li {
+  float: right;
+  margin-right: 10px;
+}
+#profile_area .skill_icon_other li img {
+  width: 60px;
+  height: 60px;
+}
 
-
+footer .copyright {
+  text-align: center;
+  padding: 15px 0;
+}
 
 
 

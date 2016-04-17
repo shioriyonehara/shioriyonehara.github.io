@@ -1,5 +1,5 @@
 /* reset */
-h1,h2,h3,h4,h5,h6,
+body,h1,h2,h3,h4,h5,h6,
 ul,ol,li,dl,dt,dd {
   margin: 0;
   padding: 0;
@@ -17,6 +17,10 @@ a:active { color: #fff; }
     clear: both;
     display: block;
 }
+
+.txt_r { text-align: right;}
+.txt_l { text-align: left;}
+
 
 /* fontの指定 */
 
