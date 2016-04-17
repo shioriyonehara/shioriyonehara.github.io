@@ -34,7 +34,7 @@
     <nav class="gnav font_frente">
       <ul class="clearfix">
         <li><a href="#works_area">WORKS</a></li>
-        <li><a href="#profile_area">PROFILE</a></li>
+        <li><a href="#footer">PROFILE</a></li>
         <li><a href="#mail">CONTACT</a></li>
       </ul>
     </nav>
@@ -107,5 +107,18 @@
 
 </section><!-- //#pages_index.wrapper -->
 
+<script type="text/javascript">
+//スムーズスクロール
+$(function(){
+  $('a[href^=#]').click(function(){
+    var speed = 500;
+    var href= $(this).attr("href");
+    var target = $(href == "#" || href == "" ? 'html' : href);
+    var position = target.offset().top;
+    $("html, body").animate({scrollTop:position}, speed, "swing");
+    return false;
+  });
+});
+</script>
 </body>
 </html>
