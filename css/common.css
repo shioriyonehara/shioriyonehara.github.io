@@ -4,9 +4,19 @@ ul,ol,li,dl,dt,dd {
   margin: 0;
   padding: 0;
 }
+ul,ol,li {
+  list-style-type: none;
+}
+a:link { color: #fff; }
+a:visited { color: #fff; }
+a:hover { color: #fff; text-decoration: none; }
+a:active { color: #fff; }
 
-
-
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
 
 /* fontの指定 */
 
