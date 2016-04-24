@@ -1,6 +1,6 @@
 /* reset */
 body,h1,h2,h3,h4,h5,h6,
-ul,ol,li,dl,dt,dd {
+ul,ol,li,dl,dt,dd,p {
   margin: 0;
   padding: 0;
 }
@@ -55,10 +55,12 @@ body{
 }
 
 .font_frente,
-h1,
-h2,
-h3 {
+h1,h2,h3 {
   font-family: 'frente_h1regular';
+  letter-spacing: 0.1em;
+}
+h1,h2 {
+  letter-spacing: 0.02em;
 }
 .font_blackjack {
   font-family: 'black_jackregular';
@@ -68,3 +70,32 @@ h3 {
 .fsz_18 {
   font-size: 1.8em;
 }
+
+
+/* --------------------------------------------------- *
+ * back to top bottun
+ */
+#page-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+#page-top a {
+  background: #000;
+  text-decoration: none;
+  color: #fff;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 70px;
+  display: block;
+  border-radius: 35px;
+  border: 2px solid #fff;
+  transition-duration: 0.3s;
+}
+#page-top a:hover {
+  text-decoration: none;
+  background: #333;
+}
+

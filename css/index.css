@@ -17,7 +17,7 @@ body {
   width: 100%;
   height: auto;
   text-align: center;
-  padding: 200px 0 300px;
+  padding: 120px 0 300px;
 }
 #site_ttl_area h1 {
   font-size: 5em;
@@ -195,9 +195,10 @@ footer #profile_area {
 #profile_area .profile_skill > dl > dd {
   font-size: 1.4em;
   padding-left: 6.6em;
+  letter-spacing: 0.1em;
 }
 #profile_area .skill_list ul {
-  border-left: 1px dotted #fff;
+  border-left: 1px dotted #666;
 }
 #profile_area .skill_list_item {
   display: inline-block;
@@ -236,33 +237,6 @@ footer .copyright {
 
 
 
-
-/* --------------------------------------------------- *
- * back to top bottun
- */
-#page-top {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-}
-#page-top a {
-  background: #000;
-  text-decoration: none;
-  color: #fff;
-  width: 80px;
-  height: 80px;
-  text-align: center;
-  font-size: 30px;
-  line-height: 80px;
-  display: block;
-  border-radius: 40px;
-  border: 2px solid #fff;
-  transition-duration: 0.3s;
-}
-#page-top a:hover {
-  text-decoration: none;
-  background: rgba(0,0,0,0.2);
-}
 
 .link_arrow_w,
 .link_arrow_w img {
