@@ -229,6 +229,14 @@ footer #profile_area {
   width: 60px;
   height: 60px;
 }
+#profile_area .skill_icon_other li:nth-child(2) img {
+  width: 180px;
+  height: 60px;
+  transition-duration: .3s;
+}
+#profile_area .skill_icon_other li:nth-child(2) img:hover {
+  opacity: 0.6;
+}
 
 footer .copyright {
   text-align: center;
