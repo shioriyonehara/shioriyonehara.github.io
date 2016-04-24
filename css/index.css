@@ -1,0 +1,248 @@
+body {
+  background-image: url(../img/bg_sakura.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.wrapper {
+}
+
+/* --------------------------------------------------- *
+ * Site Top
+ */
+#site_ttl_area {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 120px 0 300px;
+}
+#site_ttl_area h1 {
+  font-size: 5em;
+}
+#site_ttl_area .inner {
+  width: 440px;
+  height: auto;
+  border: 2px solid #fff;
+  margin: 0 auto 60px;
+  padding: 2px;
+}
+#site_ttl_area .site_ttl {
+  width: 100%;
+  height: auto;
+  padding: 60px 0 30px;
+  border: 1px solid #fff;
+}
+#site_ttl_area .site_ttl img {
+  width: 32px;
+  height: 32px;
+  margin: 15px 0 25px;
+}
+
+/* --------------------------------------------------- *
+ * Global Navigation
+ */
+#gnav_area {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 0 0 800px;
+  padding-top: 300px;
+}
+.gnav {
+  max-width: 800px;
+  width: 100%;
+  font-size: 30px;
+  margin: 0 auto;
+}
+.gnav li {
+  float: left;
+  border: 1px solid #fff;
+  width: 26%;
+  margin-right: 11%;
+}
+.gnav li:nth-child(3) {
+  margin-right: 0;
+}
+.gnav li a {
+  background: rgba(255,255,255,0.2);
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition-duration: 0.3s;
+  background-image: url(../img/icon_arrow_wh.png);
+  background-position: 90% 50%;
+  background-repeat: no-repeat;
+  -webkit-background-size: 7px 13px;
+  background-size: 7px 13px;
+}
+.gnav li a:hover {
+  box-shadow: 0 0 20px 5px rgba(255,255,255,.3) inset;
+  background-image: url(../img/icon_arrow_lg.png);
+}
+
+/* --------------------------------------------------- *
+ * works content
+ */
+#works_area {
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  margin-bottom: 300px;
+}
+#works_area .inner {
+  width: 100%;
+  background-color: #AEE239;
+  padding-bottom: 80px;
+}
+#works_area .works_container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+#works_area h2 {
+  text-align: center;
+  font-size: 4em;
+  color: #AEE239;
+  width: 164px;
+  height: 175px;
+  background-image: url(../img/works_ttl_bg.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: 164px 175px;
+  background-size: 164px 175px;
+  position: absolute;
+  top: -36px;
+  left: 0;
+  z-index: 500;
+  padding-top: 40px;
+}
+#works_area h3 {
+  text-align: center;
+  border-bottom: 2px solid #fff;
+  font-size: 3em;
+  padding: 180px 0 4px;
+}
+#works_area .works_content_list li {
+  float: left;
+}
+#works_area .works_content_list li img {
+  width: 250px;
+  height: 250px;
+}
+#works_area .link_arrow_w,
+#works_area .link_arrow_w img {
+  margin: 80px auto 0;
+}
+
+
+/* --------------------------------------------------- *
+ * footer
+ */
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #000;
+  padding-top: 80px;
+}
+footer h2 {
+  font-size: 4em;
+  margin-bottom: 120px;
+
+}
+footer #profile_area {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto 80px;
+}
+#profile_area .profile_prof {
+  width: 50%;
+  float: left;
+}
+#profile_area .profile_prof dl {
+  font-size: 1.4em;
+  margin-bottom: 20px;
+}
+#profile_area .profile_prof dt {
+  float: left;
+  width: 4em;
+}
+#profile_area .profile_prof dd {
+  padding-left: 4em;
+}
+#profile_area .profile_prof_comment {
+  margin-bottom: 50px;
+}
+#profile_area .profile_prof #mail img {
+  width: 55px;
+  height: 48px;
+  margin-right: 16px;
+}
+
+#profile_area .profile_skill {
+  width: 40%;
+  float: right;
+}
+#profile_area .profile_skill > dl {
+  margin-bottom: 80px;
+}
+#profile_area .profile_skill > dl > dt {
+  float: left;
+  font-size: 3em;
+}
+#profile_area .profile_skill > dl > dd {
+  font-size: 1.4em;
+  padding-left: 6.6em;
+  letter-spacing: 0.1em;
+}
+#profile_area .skill_list ul {
+  border-left: 1px dotted #666;
+}
+#profile_area .skill_list_item {
+  display: inline-block;
+  padding-right: 10px;
+}
+#profile_area .skill_list li img {
+  width: 19px;
+  height: 19px;
+  margin-left: 8px;
+}
+#profile_area .skill_icon {
+  
+}
+#profile_area .skill_icon_adobe li {
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+#profile_area .skill_icon_adobe li img {
+  width: 60px;
+  height: 60px;
+}
+#profile_area .skill_icon_other li {
+  float: right;
+  margin-right: 10px;
+}
+#profile_area .skill_icon_other li img {
+  width: 60px;
+  height: 60px;
+}
+
+footer .copyright {
+  text-align: center;
+  padding: 15px 0;
+}
+
+
+
+
+.link_arrow_w,
+.link_arrow_w img {
+  display: block;
+  width: 152px;
+  height: 77px;
+  margin: 0 auto;
+}
+

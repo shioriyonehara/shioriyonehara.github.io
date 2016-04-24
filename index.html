@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+
+    <meta name="keywords" content="ポートフォリオ, portforio">
+    <meta name="description" content="Ruby on railsを勉強中のKokoni Namaeのポートフォリオサイトです。">
+
+    <title>Kokoni NamaeのPortfolio</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
@@ -17,97 +21,151 @@
   </head>
 
 
-<body>
+<body id="body">
 
 <section id="pages_index" class="wrapper">
 
   <section id="site_ttl_area">
-    <div class="site_ttl">
-      <h1 class="font_frente">PORTFOLIO WEB<br><span>SHIORI YONEHARA</span></h1>
-      <img src="img/icon_ebi.png" alt="">
-      <P class="font_blackjack">Do not dwell in the past,<br>do not dream of the future,<br>concentrate the mind on the present moment.</P>
+    <div class="inner">
+      <div class="site_ttl">
+        <h1 class="font_frente">PORTFOLIO WEB</h1><p class="fsz_18 font_frente">KOKONI NAMAE</p>
+        <img src="img/icon_ebi.png" alt="">
+        <P class="font_blackjack">Do not dwell in the past,<br>do not dream of the future,<br>concentrate the mind on the present moment.</P>
+      </div>
     </div>
-    <a href="#gnav_area"><img src="img/arrow_w.png" alt=""></a>
+    <a class="link_arrow_w" href="#gnav_area"><img src="img/arrow_w.png" alt=""></a>
   </section><!-- //#site_ttl_area -->
 
   <section id="gnav_area">
-    <nav class="gnav">
-      <ul>
+    <nav class="gnav font_frente">
+      <ul class="clearfix">
         <li><a href="#works_area">WORKS</a></li>
-        <li><a href="#profile_area">PROFILE</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li><a href="#footer">PROFILE</a></li>
+        <li><a href="#mail">CONTACT</a></li>
       </ul>
     </nav>
   </section><!-- //#gnav_area -->
 
   <section id="works_area">
     <div class="inner">
-      <h2>WORKS</h2>
-      <h3>Ruby on Rails</h3>
-      <div class="works_content">
-        <ul>
-          <li><a href=""><img src="" alt=""></a></li>
-          <li><a href=""><img src="" alt=""></a></li>
-          <li><a href=""><img src="" alt=""></a></li>
-          <li><a href=""><img src="" alt=""></a></li>
-        </ul>
-      </div>
+      <div class="works_container">
+        <h2>WORKS</h2>
+        <div class="works_content">
+          <h3>Ruby on Rails</h3>
+          <ul class="clearfix works_content_list">
+            <li><a href=""><img src="img/works_com.png" alt=""></a></li>
+            <li><a href=""><img src="img/works_com.png" alt=""></a></li>
+            <li><a href=""><img src="img/works_com.png" alt=""></a></li>
+            <li><a href=""><img src="img/works_com.png" alt=""></a></li>
+          </ul>
+        </div><!-- //works_content -->
+
+        <div class="works_content">
+          <h3>HTML/CSS</h3>
+          <ul class="clearfix works_content_list">
+            <li><a href=""><img src="img/works_com.png" alt=""></a></li>
+            <li><a href=""><img src="img/works_com.png" alt=""></a></li>
+            <li><a href=""><img src="img/works_com.png" alt=""></a></li>
+            <li><a href=""><img src="img/works_com.png" alt=""></a></li>
+          </ul>
+        </div><!-- //works_content -->
+      </div><!-- //works_container -->
+      <a class="link_arrow_w" href="#footer"><img src="img/arrow_w.png" alt=""></a>
     </div>
   </section><!-- //#works_area -->
 
-  <footer>
+  <footer id="footer">
     <section id="profile_area">
       <h2>PROFILE</h2>
-      <div class="inner">
+      <div class="inner clearfix">
         <section class="profile_prof">
-          <dl class="font_frente">
-            <dt>NAME</dt><dd>SHIORI YONEHARA</dd>
-            <dt>BIRTHDAY</dt><dd>1985.03.25</dd>
-            <dt>ADDRESS</dt><dd>YOKOHAMA</dd>
+          <dl class="font_frente clearfix">
+            <dt>NAME</dt><dd> : KOKONI NAMAE</dd>
+            <dt>BIRTHDAY</dt><dd> : 198*.**.25</dd>
+            <dt>ADDRESS</dt><dd> : YOKOHAMA</dd>
           </dl>
-          <p>ここに自己紹介文</p>
+          <aside class="profile_prof_comment">
+            <p>web製作スクール卒業後、フリーランスを経てweb制作会社にコーダーとして就職。</p>
+            <p>フロントエンドを担当していたが、スクールでかじったプログラミングが楽しかったことを忘れられず、転向を決意し退職した。</p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p>現在はRuby/Ruby on Railsを勉強しています。<br>開発側に優しいアプリケーションを作れるようになりたいです。</p>
+            <p>趣味は物を作ること全般。レース編みから家屋修繕までなんでもやります。ここ5年ほどバラの栽培もしています。<br>
+            生まれてこの方インドアな人間だと思っていたけれど、最近キックボードを購入し、外に出る楽しさを覚えてしまいました。</p>
+          </aside>
+          <p id="mail"><img src="img/footer/icon_hato.png" alt="mail画像"></img><small>御用の際は***@***.***.***までご連絡ください。</small></p>
         </section>
 
         <section class="profile_skill">
-          <dl class="font_frente">
+          <dl class="font_frente clearfix">
             <dt>SKILL</dt>
             <dd class="skill_list">
-              <dl>
-                <dt>HTML5</dt>
-                <dd><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"></dd>
-                <dt>CSS3</dt>
-                <dd><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"></dd>
-                <dt>jQuery</dt>
-                <dd><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"></dd>
-                <dt>sass</dt>
-                <dd><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"></dd>
-                <dt>Ruby</dt>
-                <dd><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"></dd>
-                <dt>Git</dt>
-                <dd><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"><img src="/img/footer/skill_icon_star_on.png"></dd>
-              </dl>
+              <ul class="txt_r">
+                <li><span class="skill_list_item">HTML5</span><span><img src="img/footer/skill_icon_star_on.png"><img src="img/footer/skill_icon_star_on.png"><img src="img/footer/skill_icon_star_on.png"><img src="img/footer/skill_icon_star_on.png"><img src="img/footer/skill_icon_star_on.png"><img src="img/footer/skill_icon_star_on.png"></span></li>
+                <li><span class="skill_list_item">CSS3</span><span><img src="img/footer/skill_icon_star_on.png"><img src="img/footer/skill_icon_star_on.png"><img src="img/footer/skill_icon_star_on.png"><img src="img/footer/skill_icon_star_on.png"><img src="img/footer/skill_icon_star_on.png"><img src="img/footer/skill_icon_star_on.png"></span></li>
+                <li><span class="skill_list_item">jQuery</span><span><img src="img/footer/skill_icon_star_on.png"><img src="img/footer/skill_icon_star_on.png"><img src="img/footer/skill_icon_star_off.png"><img src="img/footer/skill_icon_star_off.png"><img src="img/footer/skill_icon_star_off.png"><img src="img/footer/skill_icon_star_off.png"></span></li>
+                <li><span class="skill_list_item">sass</span><span><img src="img/footer/skill_icon_star_on.png"><img src="img/footer/skill_icon_star_on.png"><img src="img/footer/skill_icon_star_on.png"><img src="img/footer/skill_icon_star_on.png"><img src="img/footer/skill_icon_star_off.png"><img src="img/footer/skill_icon_star_off.png"></span></li>
+                <li><span class="skill_list_item">Ruby</span><span><img src="img/footer/skill_icon_star_on.png"><img src="img/footer/skill_icon_star_off.png"><img src="img/footer/skill_icon_star_off.png"><img src="img/footer/skill_icon_star_off.png"><img src="img/footer/skill_icon_star_off.png"><img src="img/footer/skill_icon_star_off.png"></span></li>
+                <li><span class="skill_list_item">Git</span><span><img src="img/footer/skill_icon_star_on.png"><img src="img/footer/skill_icon_star_on.png"><img src="img/footer/skill_icon_star_on.png"><img src="img/footer/skill_icon_star_off.png"><img src="img/footer/skill_icon_star_off.png"><img src="img/footer/skill_icon_star_off.png"></span></li>
+              </ul>
             </dd>
           </dl>
           <div class="skill_icon">
-            <ul class="skill_icon_adobe">
-              <li><img src="" alt=""></li>
-              <li><img src="" alt=""></li>
-              <li><img src="" alt=""></li>
-              <li><img src="" alt=""></li>
+            <ul class="skill_icon_adobe clearfix">
+              <li><img src="img/footer/skill_icon_fw.png" alt="Fireworksアイコン画像"></li>
+              <li><img src="img/footer/skill_icon_dw.png" alt="Dreamweaverアイコン画像"></li>
+              <li><img src="img/footer/skill_icon_ai.png" alt="Illustratorアイコン画像"></li>
+              <li><img src="img/footer/skill_icon_ps.png" alt="Photoshopアイコン画像"></li>
             </ul>
-            <ul class="skill_icon_other">
-              <li><img src="" alt=""></li>
-              <li><img src="" alt=""></li>
+            <ul class="skill_icon_other clearfix">
+              <li><a href="https://github.com/shioriyonehara" target="_brank"><img src="img/footer/skill_icon_github.png" alt="githubアイコン画像"></a></li>
+              <li><img src="img/footer/skill_icon_git.png" alt="gitアイコン画像"></li>
             </ul>
           </div><!-- //.skill_icon -->
         </section><!-- //.profile_skill -->
       </div>
     </section><!-- //#profile_area -->
-    <p class="font_frente"><small>&copy; 2016 Shiori Yonehara</small></p>
+    <p class="font_frente copyright"><small>&copy; 2016 Kokoni Namae</small></p>
   </footer>
 
 
 </section><!-- //#pages_index.wrapper -->
 
+<p id="page-top" class="font_frente"><a href="#body">TOP</a></p>
+
+
+<script type="text/javascript">
+$(function(){
+//スムーズスクロール
+  $('a[href^=#]').click(function(){
+    var speed = 500;
+    var href= $(this).attr("href");
+    var target = $(href == "#" || href == "" ? 'html' : href);
+    var position = target.offset().top;
+    $("html, body").animate({scrollTop:position}, speed, "swing");
+    return false;
+  });
+
+//topに戻るボタン
+  var topBtn = $('#page-top');    
+  topBtn.hide();
+  //スクロールが300に達したらボタン表示
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 300) {
+      topBtn.fadeIn();
+    } else {
+      topBtn.fadeOut();
+    }
+  });
+  //スクロールしてトップ
+  topBtn.click(function () {
+    $('body,html').animate({
+      scrollTop: 0
+    }, 500);
+    return false;
+  });
+});
+</script>
 </body>
 </html>
